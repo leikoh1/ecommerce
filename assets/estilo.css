@@ -1,0 +1,82 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.contenedor{
+    background: rgb(194, 194, 191);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    min-height: 100vh;
+}
+
+.contenedor header{
+    background: rgb(75, 75, 185);
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+
+.contenedor aside{
+    background: rgb(194, 194, 191);
+    text-align: center;
+}
+
+.contenedor aside p{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor main{
+    background: rgb(194, 194, 191);
+    grid-column: span 2;
+}
+
+.contenedor footer{
+    background: rgb(255, 255, 255);
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid-galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 50%;
+    gap: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    background-color: white;
+}
+
+
+img{
+    width: 400px;
+    height: 420px;
+}
+
+button{
+    background-color: rgb(75, 75, 185);
+    width: 100%;
+}
+        
+        
+
+    
+        
